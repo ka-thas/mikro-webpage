@@ -1,4 +1,3 @@
-import React from 'react';
 import MikroLogo from '../assets/logos/Frame 7.svg'
 import Navbar from '../components/Navbar';
 
