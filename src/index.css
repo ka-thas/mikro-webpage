@@ -1,18 +1,25 @@
 @import "tailwindcss";
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 @layer base {
+  :root {
+    --color-mikro-green: 10 133 81;
+    --color-mikro-green-light: 24 173 86;
+    --color-mikro-green-lighter: 99 236 122;
+    --color-mikro-green-dark: 3 111 86;
 
+    --color-mikro-yellow: 239 183 76;
+    --color-mikro-yellow-light: 255 226 138;
 
-:root {
-  --color-mikro-green: 10 133 81;
-  --color-mikro-green-light: 24 173 86;
-  --color-mikro-green-lighter: 99 236 122;
-  --color-mikro-green-dark: 3 111 86;
+    --color-mikro-gray: 170 170 170;
+    --color-mikro-gray-light: 238 238 238;
+  }
 
-  --color-mikro-yellow: 239 183 76;
-  --color-mikro-yellow-light: 255 226 138;
-
-  --color-mikro-gray: 170 170 170;
-  --color-mikro-gray-light: 238 238 238;
-}
+  .dark {
+    --color-bg-primary: 3 111 86;
+    --color-text-primary: 238 238 238;
+  }
 }
