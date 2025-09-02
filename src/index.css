@@ -1,45 +1,17 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
 
-@layer base {
-  :root {
-    /* Base theme colors */
-    --color-mikro-green: 10 133 81;
-    --color-mikro-green-light: 24 173 86;
-    --color-mikro-green-lighter: 99 236 122;
-    --color-mikro-green-dark: 3 111 86;
-    --color-mikro-yellow: 239 183 76;
-    --color-mikro-yellow-light: 255 226 138;
-    --color-mikro-gray: 170 170 170;
-    --color-mikro-gray-light: 238 238 238;
+@theme {
+  /* Greens */
+  --color-mikro-green: rgb(10 133 81);          /* #0A8551 */
+  --color-mikro-green-light: rgb(24 173 86);    /* #18AD56 */
+  --color-mikro-green-lighter: rgb(99 236 122); /* #63EC7A */
+  --color-mikro-green-dark: rgb(3 111 86);      /* #036F56 */
 
-    /* Theme application */
-    --color-background: var(--color-mikro-gray-light);
-    --color-text: var(--color-mikro-green-dark);
-    --color-primary: var(--color-mikro-green);
-    --color-secondary: var(--color-mikro-yellow);
-    --color-accent: var(--color-mikro-green-lighter);
-    --color-navbar: var(--color-mikro-green);
-    --color-navbar-text: white;
-    --color-button: var(--color-mikro-yellow);
-    --color-button-text: var(--color-mikro-green-dark);
-  }
-}
+  /* Yellows */
+  --color-mikro-yellow: rgb(239 183 76);        /* #EFB74C */
+  --color-mikro-yellow-light: rgb(255 226 138); /* #FFE28A */
 
-/* Apply theme variables */
-@layer components {
-  .themed-page {
-    @apply bg-[color:var(--color-background)] text-[color:var(--color-text)];
-  }
-
-  .themed-navbar {
-    @apply bg-[color:var(--color-navbar)] text-[color:var(--color-navbar-text)];
-  }
-
-  .themed-button {
-    @apply bg-[color:var(--color-button)] text-[color:var(--color-button-text)] 
-           hover:bg-[color:var(--color-accent)] transition-colors;
-  }
+  /* Grays */
+  --color-mikro-gray: rgb(170 170 170);         /* #AAAAAA */
+  --color-mikro-gray-light: rgb(238 238 238);   /* #EEEEEE */
 }

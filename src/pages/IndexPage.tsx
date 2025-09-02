@@ -1,4 +1,5 @@
 import MikroLogo from '../assets/logos/Frame 7.svg'
+import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
 
 
@@ -6,10 +7,7 @@ function IndexPage(){
     return (
         <div className="j,">
             <Navbar />
-            <main className="flex flex-col items-center justify-start min-h-screen">
-                <div className="bg-mikro-green dark:bg-mikro-green-dark text-white p-4">
-                    Hello Mikro
-                </div>
+            <main className="flex flex-col items-center justify-start m-30 min-h-screen">
                 <img 
                     src={MikroLogo} 
                     alt="Mikro Logo" 
@@ -21,6 +19,7 @@ function IndexPage(){
                     Linjeforeningen for Robotikk og Intelligente systemer
                 </h2>
             </main>
+            <Footer />
         </div>
     )
 }

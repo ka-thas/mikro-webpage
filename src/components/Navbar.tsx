@@ -4,12 +4,12 @@ import ThemeToggle from './ThemeToggle';
 function Navbar() {
     return (
         <nav className="w-full">
-            <ul className="flex items-center justify-between p-4 bg-mikro-green dark:bg-mikro-green text-black">
+            <ul className="flex items-center justify-between p-4 bg-mikro-green border-xl dark:bg-mikro-green text-black">
                 <div className="flex space-x-4">
                     <li>
                         <Link to="/" aria-label="Home" className="hover:text-mikro-yellow-light transition-colors">
-                            <svg 
-                                xmlns="http://www.w3.org/2000/svg" 
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 24 24" 
                                 fill="currentColor" 
                                 className="w-6 h-6"
