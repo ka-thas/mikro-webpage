@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { FaHome, FaInfoCircle, FaTrophy } from "react-icons/fa";
+import mikroAbstractWire from '../assets/logos/mikro-abstract-wire.svg'
 import ThemeToggle from "./ThemeToggle";
 
 function Navbar() {
@@ -14,7 +15,7 @@ function Navbar() {
                             className="hover:text-mikro-yellow-light transition-colors flex items-center gap-2"
                         >
                             <img
-                                src="/src/assets/logos/mikro-abstract-wire.svg"
+                                src={mikroAbstractWire}
                                 alt="Mikro Logo"
                                 className="w-8 h-8"
                             />
