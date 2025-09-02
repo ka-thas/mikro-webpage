@@ -4,7 +4,7 @@ import Navbar from '../components/Navbar';
 
 function IndexPage(){
     return (
-        <div className="min-h-screen bg-gray-100 dark:bg-gray-900 transition-colors">
+        <div className="j,">
             <Navbar />
             <main className="flex flex-col items-center justify-start min-h-screen">
                 <div className="bg-mikro-green dark:bg-mikro-green-dark text-white p-4">
