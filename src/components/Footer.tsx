@@ -7,12 +7,12 @@ function Footer() {
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
                     {/* Contact Info */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Contact Us</h3>
+                        <h3 className="text-xl font-bold mb-4">Ta Kontakt</h3>
                         <div className="space-y-2">
-                            <a href="mailto:mikro@ifi.uio.no" 
+                            <a href="mailto:mikro-styret@ifi.uio.no" 
                                className="flex items-center hover:text-mikro-yellow-light">
                                 <FaEnvelope className="mr-2" />
-                                mikro@ifi.uio.no
+                                mikro-styret@ifi.uio.no
                             </a>
                             <div className="flex items-center">
                                 <FaMapMarkerAlt className="mr-2" />
@@ -27,7 +27,7 @@ function Footer() {
 
                     {/* Social Links */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Follow Us</h3>
+                        <h3 className="text-xl font-bold mb-4">Følg Oss</h3>
                         <div className="space-y-2">
                             <a href="https://www.instagram.com/ifimikro/" 
                                target="_blank"
@@ -41,7 +41,7 @@ function Footer() {
 
                     {/* Contribute */}
                     <div>
-                        <h3 className="text-xl font-bold mb-4">Contribute</h3>
+                        <h3 className="text-xl font-bold mb-4">Bidra</h3>
                         <a href="https://github.com/mikro-ifi/webpage" 
                            target="_blank"
                            rel="noopener noreferrer"
@@ -50,10 +50,6 @@ function Footer() {
                             GitHub Repository
                         </a>
                     </div>
-                </div>
-
-                <div className="mt-8 pt-8 border-t border-white/10 text-center">
-                    <p>&copy; {new Date().getFullYear()} Mikro - Linjeforeningen for Robotikk og Intelligente systemer</p>
                 </div>
             </div>
         </footer>
